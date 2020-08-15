@@ -54,9 +54,7 @@ def save_time_tracker_details( eyear, emon, eday, ehour, emin, syear, smon, sday
 
 
 def main():
-    '''
-    @Evans if you still want to use the user input in the code add it here, if you are done delete this commet
-    '''
+   
     start = 2020,7,30,8,20
     end =  2020,7,31,12,30
     time_tracker(start, end, "testing", '.csv', 5)
