@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Employee Promotion Service</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Machine Learning Employee Promotion Prediction Web Application</font></div></h1>
+    <hr>
+    </br>
+    <h3><div style="text-align:center">FastTrack is an Expediat Application for Employee Promotion, Powered By ML Group&co.</div></h3>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'>
+          <form method="POST" action="/predict">
+
+            <div class="form-group">
+              <label for="department_HR"><p class="font-weight-bold">HR Department</p></label>
+              <input type="text" name="department_HR">
+              <small id="department_HRHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+              </div>
+
+              <div class="form-group">
+                <label for=" department_Legal"><p class="font-weight-bold">Legal Department</p></label>
+                <input type="text" name=" department_Legal">
+                <small id="department_LegalHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="department_Operations"><p class="font-weight-bold">Operations Department</p></label>
+                  <input type="text" name="department_Operations">
+                  <small id="department_OperationsHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="department_Procurement"><p class="font-weight-bold">Procurement Department</p></label>
+                    <input type="text" name="department_Procurement">
+                    <small id="department_ProcurementHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for=" department_R"><p class="font-weight-bold">Research and Development</p></label>
+                      <input type="text" name=" department_R">
+                      <small id="department_RHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="department_Sales_Marketing"><p class="font-weight-bold">Sales and Marketing</p></label>
+                        <input type="text" name="department_Sales_Marketing">
+                        <small id="department_Sales_MarketingHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                        </div>
+
+                      
+                        <div class="form-group">
+                            <label for="department_Technology"><p class="font-weight-bold">Technology Department</p></label>
+                            <input type="text" name="department_Technology">
+                            <small id="department_TechnologyHelp" class="form-text text-muted">Enter 1 if employee belongs to this dept else 0</small>
+                            </div>
+                        
+                      <div class="form-group">
+                        <label for="education_level_Bachelor"><p class="font-weight-bold">Bachelor Degree</p></label>
+                        <input type="text" name="education_level_Bachelor">
+                        <small id="education_level_BachelorHelp" class="form-text text-muted">Enter 1 if employee highest education level correspond to this else 0</small>
+                        </div>
+
+                        
+                      <div class="form-group">
+                        <label for="education_level_Below_Secondary"><p class="font-weight-bold">High School and Below</p></label>
+                        <input type="text" name="education_level_Below_Secondary">
+                        <small id="education_level_Below_SecondaryHelp" class="form-text text-muted">Enter 1 if employee highest education level correspond to this else 0</small>
+                        </div>
+
+                        
+                      <div class="form-group">
+                        <label for="education_level_Master"><p class="font-weight-bold">Master Degree</p></label>
+                        <input type="text" name="education_level_Master">
+                        <small id="education_level_MasterHelp" class="form-text text-muted">Enter 1 if employee highest education level correspond to this else 0</small>
+                        </div>
+
+                        
+                      <div class="form-group">
+                        <label for="gender_f"><p class="font-weight-bold">Female</p></label>
+                        <input type="text" name="gender_f">
+                        <small id="gender_fHelp" class="form-text text-muted">Enter 1 if employee belong to this gender </small>
+                        </div>
+
+                        
+                      <div class="form-group">
+                        <label for="gender_m"><p class="font-weight-bold">Male</p></label>
+                        <input type="text" name="gender_m">
+                        <small id="gender_mHelp" class="form-text text-muted">Enter 1 if employee belong to this gender </small>
+                        </div>
+
+                        <input class='btn btn-primary' type='submit' value='Submit'>
+                        
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
