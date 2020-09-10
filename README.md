@@ -13,7 +13,7 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Below are Configurations and tools we used 
 
 ```markdown
 Syntax highlighted code block
