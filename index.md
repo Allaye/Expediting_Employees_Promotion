@@ -1,9 +1,6 @@
-## Welcome to GitHub Pages
+## Expediting Employees Promotion
 
-You can use the [editor on GitHub](https://github.com/Allaye/Expediting_Employees_Promotion/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+This project was developed to tackle the long delays in promoting a qualified employee to a managerial position and below. Currently, the process an employee goes through to get promoted to his/her new role leads to a delay in the transition process. Our task was to analyze the data and develop an accurate model to help the organization fast track its promotion cycle. The project made use of a machine learning framework that goes through the features for the promotion of an employee. Using the binary logistic regression, the model is able to predict whether an employee is promoted or not.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
