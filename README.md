@@ -6,6 +6,11 @@ Demo:
 A demo has been created to show you how the model works. You can see the link below. We have created an interface where you can interact with the model in making prediction.
 Check [link] for the demo.
 
+Installation:
+Below you can find an outline of how to reproduce the solution for the project.
+If you run into any trouble with the setup/code or have any questions please contact Ethel.Hehetror@azubiafrica.org , Gideon.Kolade@azubiafrica.org or Evans.Matey@azubiafrica.org .
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
