@@ -2,3 +2,10 @@ flask
 joblib
 numpy
 pandas 
+pandas_profiling
+lightgbm
+sklearn
+imbalance_learn
+catboost
+joblib
+datawig
