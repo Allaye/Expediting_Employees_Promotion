@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Promotion Analysis Result Page</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="red">Machine Learning Employee Promotion Prediction Web Application</font></div></h1>
+    <hr>
+  <h3><div style="text-align:center">FastTrack is an Expediat Application for Employee Promotion, Powered By ML Group&co.</div></h3> 
+    <div class='container'>
+    <form method="POST" action="/predict">
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="age">Age</label>
+            <input type="text" name="age" class="form-control" id="age" placeholder="Enter Age">
+          </div>
+          
+          <div class="form-group col-md-3">
+            <label for="KPI">KPI</label>
+            <input type="text" name="KPI" class="form-control" id="KPI" placeholder="Enter the key performance indicator">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="total_training">Total_Training</label>
+            <input type="text" name="total_training" class="form-control" id="total_training" placeholder="Enter Total Training Value">
+          </div>
+     
+          <div class="form-group col-md-3">
+            <label for="length_of_service">length_of_service</label>
+            <input type="text" name="length_of_service" class="form-control" id="length_of_service" placeholder="Enter length_of_service">
+          </div>
+        </div>
+        <hr>
+         *********
+         <div class="form-row">
+            <div class="form-group col-md-4">
+          <label for="awards_won">Awards Won</label>
+          <input type="text" name="awards_won"class="form-control" id="awards_won" placeholder="Amount of Awards Won">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="avg_training_score">Training Score</label>
+          <input type="text" name="avg_training_score" class="form-control" id="avg_training_score" placeholder="Enter the Training Score">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="previous_year_rating">Rating Score</label>
+            <input type="text" name="previous_year_rating" class="form-control" id="previous_year_rating" placeholder="Enter Last Yeat Rating">
+          </div>
+         </div>
+         **********
+
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="department_Analytics">Analytic Department</label>
+            <input type="text" name="department_Analytics" class="form-control" id="department_Analytics" placeholder="Enter 1 if you belong here">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="department_Finance">Finance Department</label>
+            <select id="inputState" name="department_Finance"  class="form-control">
+              <option selected>0</option>
+              <option>1</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="department_HR">HR Department</label>
+            <select id="inputState" name="department_HR"  class="form-control">
+              <option selected>0</option>
+              <option>1</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="department_Legal">Legal Department</label>
+            <select id="inputState" name="department_Legal"  class="form-control">
+              <option selected>0</option>
+              <option>1</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="department_Operations">Operation Department</label>
+            <select id="inputState" name="department_Operations"  class="form-control">
+              <option selected>0</option>
+              <option>1</option>
+            </select>
+        </div>
+        </div>
+    </br>
+******************************************
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="department_Procurement">Procurement Department</label>
+          <input type="text" name="department_Procurement" class="form-control" id="department_Procurement" placeholder="Enter 1 if you belong">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="department_R">R&D Department</label>
+          <select id="inputState" name="department_R"  class="form-control">
+            <option selected>0</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="department_Sales_Marketing">Sales Department</label>
+          <select id="inputState" name="department_Sales_Marketing"  class="form-control">
+            <option selected>0</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="department_Technology">Tech Department</label>
+          <select id="inputState" name="department_Technology"  class="form-control">
+            <option selected>0</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="education_level_Bachelor">Bachelor Degree</label>
+          <select id="inputState" name="education_level_Bachelor"  class="form-control">
+            <option selected>0</option>
+            <option>1</option>
+          </select>
+      </div>
+      </div>
+      ^***********************
+
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="education_level_Below_Secondary">High School & Below</label>
+          <input type="text" name="education_level_Below_Secondary" class="form-control" id="education_level_Below_Secondary" placeholder="Enter 1 if you belong">
+        </div>
+        
+        <div class="form-group col-md-3">
+          <label for="education_level_Master">Master Degree</label>
+          <input type="text" name="education_level_Master" class="form-control" id="education_level_Master" placeholder="Enter i if you Belong">
+        </div>
+
+        <div class="form-group col-md-3">
+          <label for="gender_f">Female</label>
+          <input type="text" name="gender_f" class="form-control" id="gender_f" placeholder="Enter i if you Belong">
+        </div>
+   
+        <div class="form-group col-md-2">
+          <label for="gender_m">Male</label>
+          <input type="text" name="gender_m" class="form-control" id="gender_m" placeholder="Enter 1 if you Belong">
+        </div>
+    </br>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+      
+        
+      </form>
+    </div>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
