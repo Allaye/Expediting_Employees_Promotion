@@ -1,6 +1,11 @@
 ## Expediting Employees Promotion
 
 This project was developed to tackle the long delays in promoting a qualified employee to a managerial position and below. Currently, the process an employee goes through to get promoted to his/her new role leads to a delay in the transition process. Our task was to analyze the data and develop an accurate model to help the organization fast track its promotion cycle. The project made use of a machine learning framework that goes through the features for the promotion of an employee. Using the binary logistic regression, the model is able to predict whether an employee is promoted or not.
+
+Demo:
+A demo has been created to show you how the model works. You can see the link below. We have created an interface where you can interact with the model in making prediction.
+Check [link] for the demo.
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
