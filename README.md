@@ -10,15 +10,14 @@ Using the binary logistic regression, the model is able to predict whether an em
 
 # Demo
 
-A demo has been created to show you how the model works. You can see the link below. We have created an interface where you can interact with the model in making prediction.
-Check [link] for the demo.
+A demo has been created to show you how the model works.
+We have created an interface where you can interact with the model in making prediction.
+This shows how the model was deployed in Microsoft Azure and using Microsoft Azure Web App to develop an app for users to interact with it
 
-Check [**DEMO.md**](./DEMO.md) for more.
-
-![](demo/images/demo_google.gif)
 
 Here is a random GIF as a placeholder.
 
+![Random GIF](https://media.giphy.com/media/L2r3WglNffC25Zem0P/giphy.gif) 
 
 # Table of contents
 
