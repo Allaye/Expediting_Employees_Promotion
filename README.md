@@ -18,7 +18,7 @@ Below are Configurations and tools we used
 ```markdown
 Syntax highlighted code block
 
-# Hardware
+###Hardware
 ## Header 2
 ### Header 3
 
