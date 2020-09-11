@@ -46,7 +46,7 @@ def predict():
             model = joblib.load(load_model)
             prediction = model.predict(pred_arg)
 
-            pre = lambda predi: 'Successful' if (predi == 1) else "Rejected"
+            pre = lambda predi: 'Rejected' if (predi == 1) else "Successful"
 
               # $FlaskEmployee
               # hM6QpjtRCNTogcelEJswbQDszlgLunx4dkceCbT97wMZYPyroRnFckvSAwcT
@@ -60,6 +60,6 @@ def predict():
 
 if __name__ == "__main__":
 
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=80)
 
    
