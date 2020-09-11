@@ -26,6 +26,7 @@ Here is a random GIF as a placeholder.
 - [Demo](#demo)
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contribute](#contribute)
     - [Sponsor](#sponsor)
     - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
@@ -110,6 +111,14 @@ Using the LGBMClassifier for the fourth model, it performed well compared with t
 
 We also tried the Decision Tree Classifier and that was also better than the others.
 Finally, we use the decision tree model in our model build.    
+
+# Usage
+[(Back to top)](#table-of-contents)
+
+After getting the best model using the Decision Tree Classifier. We deployed the model in Microsoft Azure to create an app for users to interact with it.
+You can get access to the app by clicking on this link here.
+
+Check [**APP.md**](https://expediteservice.azurewebsites.net) for more.
 
 
 # Contribute
