@@ -128,9 +128,6 @@ We will like to say a big thank you to Ethel Hehetror(Project Manager), Gideon K
 This project follows the all-contributors specification. 
 Contributions of any kind welcome!
 
-<!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
-
-Also this shows how you can add subsections within a section. -->
 
 ### Sponsor
 [(Back to top)](#table-of-contents)
