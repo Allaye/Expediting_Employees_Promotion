@@ -14,7 +14,7 @@ A demo has been created to show you how the model works.
 We have created an interface where you can interact with the model in making prediction.
 This shows how the model was deployed in Microsoft Azure and using Microsoft Azure Web App to develop an app for users to interact with it
 
-Check [**DEMO.md**](https://web.microsoftstream.com/video/8cfd4696-fab0-4fd9-beb1-3a79426de16) for more.
+Check [**DEMO.md**](https://kapwi.ng/c/a3JjSzuv) for more.
 
 Here is a random GIF as a placeholder.
 
